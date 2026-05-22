@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Bearagent">
+  <rect width="512" height="512" rx="96" fill="#FAF6F0"/>
+  <!-- ears -->
+  <circle cx="160" cy="170" r="58" fill="#8C5A2E"/>
+  <circle cx="352" cy="170" r="58" fill="#8C5A2E"/>
+  <circle cx="160" cy="170" r="28" fill="#F5E0CB"/>
+  <circle cx="352" cy="170" r="28" fill="#F5E0CB"/>
+  <!-- head -->
+  <circle cx="256" cy="270" r="170" fill="#C9874D"/>
+  <!-- eyes -->
+  <circle cx="208" cy="246" r="16" fill="#2D2A26"/>
+  <circle cx="304" cy="246" r="16" fill="#2D2A26"/>
+  <circle cx="213" cy="240" r="5" fill="#FFFFFF"/>
+  <circle cx="309" cy="240" r="5" fill="#FFFFFF"/>
+  <!-- snout -->
+  <ellipse cx="256" cy="330" rx="78" ry="62" fill="#F5E0CB"/>
+  <!-- nose -->
+  <ellipse cx="256" cy="306" rx="24" ry="18" fill="#2D2A26"/>
+  <!-- mouth -->
+  <path d="M 256 330 L 256 352" stroke="#2D2A26" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 256 352 Q 232 374 214 360" fill="none" stroke="#2D2A26" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 256 352 Q 280 374 298 360" fill="none" stroke="#2D2A26" stroke-width="6" stroke-linecap="round"/>
+</svg>

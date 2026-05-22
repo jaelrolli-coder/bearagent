@@ -6,6 +6,9 @@
   <meta name="theme-color" content="#FAF6F0">
   <title>Bearagent</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/img/icon.svg">
+  <link rel="apple-touch-icon" href="assets/img/icon-192.png">
 </head>
 <body class="picker-page">
   <main class="picker">
@@ -24,8 +27,10 @@
         <span class="profile-name">Nina</span>
       </a>
     </div>
-    <button class="parent-corner" aria-label="Parent override" title="Eltern-Menü (PIN nötig)">🐾</button>
+    <button class="parent-corner" aria-label="Parent override" title="Eltern-Menü: lang drücken oder dreifach klicken">🐾</button>
   </main>
   <script src="js/picker.js"></script>
+  <script src="js/parent.js"></script>
+  <script src="js/register-sw.js"></script>
 </body>
 </html>
