@@ -1,5 +1,6 @@
 // Tiny per-page language toggle. Reads `.i18n` elements with data-de/data-en
 // and swaps their visible text. Persists choice in localStorage.
+// Dispatches `bearagent:langchanged` so feature scripts can re-render.
 
 (function () {
   function setLanguage(lang) {
@@ -12,6 +13,7 @@
       btn.classList.toggle('active', btn.dataset.lang === lang);
     });
     localStorage.setItem('bearagent.lang', lang);
+    window.dispatchEvent(new CustomEvent('bearagent:langchanged', { detail: lang }));
   }
 
   document.addEventListener('DOMContentLoaded', function () {
