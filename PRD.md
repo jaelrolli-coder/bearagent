@@ -238,13 +238,13 @@ Family-app metrics, not SaaS metrics:
 | 2026-05-20 | UI languages = **DE + EN day one** | Per-profile toggle; word of the day always bilingual. |
 | 2026-05-20 | Kids' news source = **ZDF *logo!* (DE) + BBC *Newsround* (EN)** | Both public-broadcaster, both RSS-available. |
 | 2026-05-20 | Schedule source for v1 = **hand-edited `schedule.json`** | Calendar integration deferred to v2. |
+| 2026-05-21 | Region for B2 (school holidays) = **Kanton Graubünden (Schweiz)** | Family lives in Lenzerheide; Noa attends school there. |
 
 ## 12. Open questions (still need a call before v1 ships)
 
 1. **PIN:** One shared parent PIN or one per parent?
 2. **Avatars:** Photos of the kids, or illustrated bear avatars? (Privacy + cuteness tradeoff.)
 3. **Domain:** Custom domain (e.g. `bearagent.family`) or stay on `jaelrolli-coder.github.io/bearagent`?
-4. **Country/region:** For B2/B3 in v2 we need to know which Kanton / Bundesland to import school holidays from.
 
 ## 13. Out of scope (forever, or until reconsidered)
 
