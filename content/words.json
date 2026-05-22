@@ -1,0 +1,122 @@
+[
+  {
+    "de": { "word": "Murmeltier", "meaning": "Ein kleines Tier, das in den Bergen lebt und pfeift.", "example": "Im Sommer sieht man oft Murmeltiere auf den Wiesen." },
+    "en": { "word": "Marmot", "meaning": "A small mountain animal that whistles.", "example": "In summer you can often see marmots in the meadows." }
+  },
+  {
+    "de": { "word": "Schmetterling", "meaning": "Ein Insekt mit bunten Flügeln, das aus einer Raupe entsteht.", "example": "Der Schmetterling sitzt auf der Blume." },
+    "en": { "word": "Butterfly", "meaning": "An insect with colorful wings that develops from a caterpillar.", "example": "The butterfly is sitting on the flower." }
+  },
+  {
+    "de": { "word": "Regenbogen", "meaning": "Ein Farbbogen am Himmel, wenn die Sonne durch Regen scheint.", "example": "Nach dem Regen sahen wir einen Regenbogen." },
+    "en": { "word": "Rainbow", "meaning": "A colored arc in the sky when the sun shines through rain.", "example": "After the rain we saw a rainbow." }
+  },
+  {
+    "de": { "word": "Eichhörnchen", "meaning": "Ein kleines Tier mit buschigem Schwanz, das in Bäumen lebt.", "example": "Das Eichhörnchen sammelt Nüsse für den Winter." },
+    "en": { "word": "Squirrel", "meaning": "A small animal with a bushy tail that lives in trees.", "example": "The squirrel collects nuts for the winter." }
+  },
+  {
+    "de": { "word": "Wasserfall", "meaning": "Wasser, das von einem Felsen herunterfällt.", "example": "Der Wasserfall macht laute Geräusche." },
+    "en": { "word": "Waterfall", "meaning": "Water that falls down from a cliff.", "example": "The waterfall makes loud sounds." }
+  },
+  {
+    "de": { "word": "Sternschnuppe", "meaning": "Ein leuchtender Streifen am Nachthimmel — eigentlich ein verglühender Meteorit.", "example": "Wenn man eine Sternschnuppe sieht, darf man sich etwas wünschen." },
+    "en": { "word": "Shooting star", "meaning": "A glowing streak in the night sky — actually a burning meteor.", "example": "When you see a shooting star you can make a wish." }
+  },
+  {
+    "de": { "word": "Schneeflocke", "meaning": "Ein kleiner Eiskristall, der vom Himmel fällt.", "example": "Jede Schneeflocke sieht anders aus." },
+    "en": { "word": "Snowflake", "meaning": "A tiny ice crystal that falls from the sky.", "example": "Every snowflake looks different." }
+  },
+  {
+    "de": { "word": "Pinguin", "meaning": "Ein schwarz-weisser Vogel, der nicht fliegen, aber gut schwimmen kann.", "example": "Pinguine leben am Südpol." },
+    "en": { "word": "Penguin", "meaning": "A black-and-white bird that can't fly but swims well.", "example": "Penguins live at the South Pole." }
+  },
+  {
+    "de": { "word": "Vulkan", "meaning": "Ein Berg, aus dem heisse Lava herauskommt.", "example": "Der Ätna in Italien ist ein berühmter Vulkan." },
+    "en": { "word": "Volcano", "meaning": "A mountain that hot lava comes out of.", "example": "Etna in Italy is a famous volcano." }
+  },
+  {
+    "de": { "word": "Leuchtturm", "meaning": "Ein hoher Turm am Meer, der Schiffen den Weg zeigt.", "example": "Der Leuchtturm blinkt die ganze Nacht." },
+    "en": { "word": "Lighthouse", "meaning": "A tall tower by the sea that shows ships the way.", "example": "The lighthouse flashes all night." }
+  },
+  {
+    "de": { "word": "Astronaut", "meaning": "Ein Mensch, der mit einer Rakete ins Weltall fliegt.", "example": "Der Astronaut schwebte in der Raumstation." },
+    "en": { "word": "Astronaut", "meaning": "A person who flies into space in a rocket.", "example": "The astronaut floated in the space station." }
+  },
+  {
+    "de": { "word": "Bibliothek", "meaning": "Ein Haus voller Bücher, die man ausleihen kann.", "example": "In der Bibliothek muss man leise sein." },
+    "en": { "word": "Library", "meaning": "A building full of books you can borrow.", "example": "You have to be quiet in the library." }
+  },
+  {
+    "de": { "word": "Tintenfisch", "meaning": "Ein Meerestier mit acht Armen.", "example": "Der Tintenfisch versteckt sich zwischen den Steinen." },
+    "en": { "word": "Octopus", "meaning": "A sea creature with eight arms.", "example": "The octopus hides between the rocks." }
+  },
+  {
+    "de": { "word": "Marienkäfer", "meaning": "Ein kleiner roter Käfer mit schwarzen Punkten.", "example": "Der Marienkäfer hat sieben Punkte." },
+    "en": { "word": "Ladybug", "meaning": "A small red beetle with black spots.", "example": "The ladybug has seven spots." }
+  },
+  {
+    "de": { "word": "Glühwürmchen", "meaning": "Ein kleines Tier, das im Dunkeln leuchtet.", "example": "Im Sommer sieht man Glühwürmchen im Garten." },
+    "en": { "word": "Firefly", "meaning": "A small creature that glows in the dark.", "example": "In summer you can see fireflies in the garden." }
+  },
+  {
+    "de": { "word": "Wolkenkratzer", "meaning": "Ein sehr hohes Gebäude in einer Stadt.", "example": "New York hat viele Wolkenkratzer." },
+    "en": { "word": "Skyscraper", "meaning": "A very tall building in a city.", "example": "New York has many skyscrapers." }
+  },
+  {
+    "de": { "word": "Fledermaus", "meaning": "Ein Säugetier, das fliegen kann und nachts aktiv ist.", "example": "Die Fledermaus hängt am Dachbalken." },
+    "en": { "word": "Bat", "meaning": "A mammal that can fly and is active at night.", "example": "The bat hangs from the roof beam." }
+  },
+  {
+    "de": { "word": "Seestern", "meaning": "Ein Meerestier in Sternform mit fünf Armen.", "example": "Am Strand fanden wir einen orangen Seestern." },
+    "en": { "word": "Starfish", "meaning": "A sea creature shaped like a star with five arms.", "example": "At the beach we found an orange starfish." }
+  },
+  {
+    "de": { "word": "Kompass", "meaning": "Ein kleines Gerät, das immer nach Norden zeigt.", "example": "Mit dem Kompass findest du den Weg im Wald." },
+    "en": { "word": "Compass", "meaning": "A small device that always points north.", "example": "With a compass you can find your way in the forest." }
+  },
+  {
+    "de": { "word": "Gewitter", "meaning": "Ein Sturm mit Blitz, Donner und Regen.", "example": "Während des Gewitters bleiben wir im Haus." },
+    "en": { "word": "Thunderstorm", "meaning": "A storm with lightning, thunder, and rain.", "example": "During the thunderstorm we stay inside." }
+  },
+  {
+    "de": { "word": "Korallenriff", "meaning": "Ein Unterwasser-Garten aus Korallen, in dem viele Fische leben.", "example": "Im Korallenriff schwimmen bunte Fische." },
+    "en": { "word": "Coral reef", "meaning": "An underwater garden of corals where many fish live.", "example": "Colorful fish swim in the coral reef." }
+  },
+  {
+    "de": { "word": "Honigbiene", "meaning": "Ein Insekt, das Nektar sammelt und Honig macht.", "example": "Die Honigbiene besucht hunderte Blumen pro Tag." },
+    "en": { "word": "Honeybee", "meaning": "An insect that collects nectar and makes honey.", "example": "The honeybee visits hundreds of flowers a day." }
+  },
+  {
+    "de": { "word": "Nordlicht", "meaning": "Bunte Lichter am Himmel im hohen Norden.", "example": "In Norwegen sieht man manchmal Nordlichter." },
+    "en": { "word": "Northern lights", "meaning": "Colorful lights in the sky far up north.", "example": "In Norway you can sometimes see the northern lights." }
+  },
+  {
+    "de": { "word": "Drache", "meaning": "Ein Fabelwesen, das Feuer spucken kann.", "example": "In dem Buch kämpft der Ritter gegen einen Drachen." },
+    "en": { "word": "Dragon", "meaning": "A mythical creature that can breathe fire.", "example": "In the book the knight fights a dragon." }
+  },
+  {
+    "de": { "word": "Sandburg", "meaning": "Eine kleine Burg, die man aus Sand am Strand baut.", "example": "Wir bauten eine grosse Sandburg." },
+    "en": { "word": "Sand castle", "meaning": "A small castle built from sand at the beach.", "example": "We built a big sand castle." }
+  },
+  {
+    "de": { "word": "Mikroskop", "meaning": "Ein Gerät, mit dem man sehr kleine Dinge gross sehen kann.", "example": "Im Mikroskop sieht man kleine Lebewesen." },
+    "en": { "word": "Microscope", "meaning": "A device that lets you see very small things up close.", "example": "Through the microscope you can see tiny living things." }
+  },
+  {
+    "de": { "word": "Regenwald", "meaning": "Ein Wald, in dem es sehr viel regnet und viele Tiere leben.", "example": "Im Regenwald leben Affen und Papageien." },
+    "en": { "word": "Rainforest", "meaning": "A forest where it rains a lot and many animals live.", "example": "Monkeys and parrots live in the rainforest." }
+  },
+  {
+    "de": { "word": "Lawine", "meaning": "Schnee, der einen Berg hinunterstürzt.", "example": "Im Winter muss man im Skigebiet auf Lawinen achten." },
+    "en": { "word": "Avalanche", "meaning": "Snow that rushes down a mountain.", "example": "In winter you have to watch out for avalanches in the ski area." }
+  },
+  {
+    "de": { "word": "Steinbock", "meaning": "Eine Bergziege mit grossen, gebogenen Hörnern.", "example": "Im Engadin lebt der Steinbock auf hohen Felsen." },
+    "en": { "word": "Ibex", "meaning": "A mountain goat with large curved horns.", "example": "In the Engadin the ibex lives on high cliffs." }
+  },
+  {
+    "de": { "word": "Gondelbahn", "meaning": "Eine Seilbahn mit kleinen Kabinen, die auf einen Berg fährt.", "example": "Mit der Gondelbahn fahren wir aufs Rothorn." },
+    "en": { "word": "Gondola", "meaning": "A cable car with small cabins that goes up a mountain.", "example": "We take the gondola up to the Rothorn." }
+  }
+]
