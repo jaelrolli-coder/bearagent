@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0",
+  "languages": {
+    "default": "de",
+    "available": ["de", "en"]
+  },
+  "profiles": {
+    "noa": {
+      "name": "Noa",
+      "age": 7,
+      "defaultLanguage": "de",
+      "dailyVideoBudgetMinutes": 30,
+      "features": ["videos", "sudoku", "word", "fact", "schedule", "news", "emergency"]
+    },
+    "nina": {
+      "name": "Nina",
+      "age": 3,
+      "defaultLanguage": "de",
+      "dailyVideoBudgetMinutes": 20,
+      "features": ["videos", "word", "schedule", "emergency"]
+    }
+  },
+  "parent": {
+    "pinHash": "",
+    "note": "PIN model still open — single shared vs per-parent. Hash will be set when chosen."
+  },
+  "region": {
+    "country": "CH",
+    "kanton": "GR",
+    "town": "Lenzerheide"
+  },
+  "emergency": {
+    "doctor": { "name": "", "phone": "" },
+    "pediatrician": { "name": "", "phone": "" },
+    "insurance": { "provider": "", "number": "" },
+    "allergies": { "noa": [], "nina": [] },
+    "bloodTypes": { "adam": "", "jael": "", "noa": "", "nina": "" },
+    "contacts": []
+  }
+}

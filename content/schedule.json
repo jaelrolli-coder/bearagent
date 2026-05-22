@@ -1,0 +1,25 @@
+{
+  "_note": "Hand-edited per PRD decision 2026-05-20. Calendar integration deferred to v2. See SCHEDULE.md for format.",
+  "noa": {
+    "weekly": {
+      "monday":    [{ "time": "08:00", "icon": "🎒", "de": "Schule", "en": "School" }],
+      "tuesday":   [{ "time": "08:00", "icon": "🎒", "de": "Schule", "en": "School" }],
+      "wednesday": [{ "time": "08:00", "icon": "🎒", "de": "Schule", "en": "School" }],
+      "thursday":  [{ "time": "08:00", "icon": "🎒", "de": "Schule", "en": "School" }],
+      "friday":    [{ "time": "08:00", "icon": "🎒", "de": "Schule", "en": "School" }],
+      "saturday":  [],
+      "sunday":    []
+    }
+  },
+  "nina": {
+    "weekly": {
+      "monday":    [],
+      "tuesday":   [],
+      "wednesday": [],
+      "thursday":  [],
+      "friday":    [],
+      "saturday":  [],
+      "sunday":    []
+    }
+  }
+}

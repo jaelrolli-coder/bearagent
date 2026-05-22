@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-22",
+  "_note": "Sample content for the v1 shell. Replaced nightly by the GitHub Action (task #15).",
+  "word": {
+    "de": {
+      "word": "Murmeltier",
+      "meaning": "Ein kleines Tier, das in den Bergen lebt und pfeift.",
+      "example": "Im Sommer sieht man oft Murmeltiere auf den Wiesen."
+    },
+    "en": {
+      "word": "Marmot",
+      "meaning": "A small mountain animal that whistles.",
+      "example": "In summer you can often see marmots in the meadows."
+    }
+  },
+  "fact": {
+    "de": "Murmeltiere halten bis zu sechs Monate Winterschlaf!",
+    "en": "Marmots can hibernate for up to six months!"
+  },
+  "news": {
+    "de": { "headline": "Beispiel-Schlagzeile auf Deutsch", "source": "ZDF logo!", "url": "" },
+    "en": { "headline": "Sample English headline", "source": "BBC Newsround", "url": "" }
+  }
+}
