@@ -185,6 +185,7 @@
     }
 
     var repoBase = 'https://github.com/jaelrolli-coder/bearagent/edit/main';
+    var inboxUploadUrl = 'https://github.com/jaelrolli-coder/bearagent/upload/main/content/schedule-inbox';
 
     modal.innerHTML =
       '<button class="parent-close" aria-label="Close">×</button>' +
@@ -208,6 +209,7 @@
         'Edits that persist across devices go via the repo:'
       ) + '</p>' +
       '<div class="admin-links">' +
+        '<a href="' + inboxUploadUrl + '" target="_blank" rel="noopener">📥 ' + t('Stundenplan/Screenshot hochladen', 'Upload schedule / screenshot') + '</a>' +
         '<a href="' + repoBase + '/content/whitelist-noa.json" target="_blank" rel="noopener">whitelist-noa.json</a>' +
         '<a href="' + repoBase + '/content/whitelist-nina.json" target="_blank" rel="noopener">whitelist-nina.json</a>' +
         '<a href="' + repoBase + '/content/schedule.json" target="_blank" rel="noopener">schedule.json</a>' +
