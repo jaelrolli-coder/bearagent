@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FAF6F0">
+  <title>Bearagent — Videos</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <main class="kid-page feature-page" data-feature="videos">
+    <header class="kid-header">
+      <h1 class="kid-greeting">
+        <span class="i18n" data-de="🎬 Videos" data-en="🎬 Videos">🎬 Videos</span>
+      </h1>
+      <div class="kid-header-right">
+        <span id="timer-pill" class="timer-pill" aria-live="polite">⏱</span>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-lang="de" class="active">DE</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <section id="videos-player" class="videos-player" hidden>
+      <div id="ytplayer"></div>
+      <button id="player-back" type="button" class="player-back">
+        <span class="i18n" data-de="← Zurück zur Auswahl" data-en="← Back to list">← Zurück zur Auswahl</span>
+      </button>
+    </section>
+
+    <section id="videos-grid" class="videos-grid"></section>
+
+    <section id="videos-empty" class="videos-empty" hidden>
+      <div class="empty-illustration">🎬</div>
+      <h2 class="i18n" data-de="Noch keine Videos" data-en="No videos yet">Noch keine Videos</h2>
+      <p class="i18n" data-de="Frag deine Eltern, ein Video hinzuzufügen." data-en="Ask a parent to add a video.">Frag deine Eltern, ein Video hinzuzufügen.</p>
+    </section>
+
+    <div id="videos-lockout" class="videos-lockout" hidden>
+      <div class="lockout-card">
+        <div class="lockout-icon">🌙</div>
+        <h2 class="i18n" data-de="Bis morgen!" data-en="See you tomorrow!">Bis morgen!</h2>
+        <p class="i18n" data-de="Heute hast du deine Video-Zeit verbraucht." data-en="You've used today's video time.">Heute hast du deine Video-Zeit verbraucht.</p>
+      </div>
+    </div>
+
+    <div class="videos-footer">
+      <button id="add-video-btn" type="button" class="add-video-btn">
+        <span class="i18n" data-de="+ Video hinzufügen (Eltern)" data-en="+ Add video (parent)">+ Video hinzufügen (Eltern)</span>
+      </button>
+      <a href="#" class="back-link" data-back-to-kid>
+        <span class="i18n" data-de="← Zurück" data-en="← Back">← Zurück</span>
+      </a>
+    </div>
+  </main>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/profile.js"></script>
+  <script src="../js/timer.js"></script>
+  <script src="../js/videos.js"></script>
+</body>
+</html>
