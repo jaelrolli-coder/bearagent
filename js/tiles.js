@@ -8,9 +8,9 @@
     fact: 'fact.html',
     news: 'news.html',
     schedule: 'schedule.html',
-    emergency: 'emergency.html'
+    emergency: 'emergency.html',
+    sudoku: 'sudoku.html'
     // videos: 'videos.html' — task #8
-    // sudoku: 'sudoku.html' — task #9
   };
 
   function ctaLabel() {

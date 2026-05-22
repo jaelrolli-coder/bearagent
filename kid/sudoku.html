@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FAF6F0">
+  <title>Bearagent — Sudoku</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <main class="kid-page feature-page" data-feature="sudoku">
+    <header class="kid-header">
+      <h1 class="kid-greeting">
+        <span class="i18n" data-de="🔢 Sudoku des Tages" data-en="🔢 Sudoku of the day">🔢 Sudoku des Tages</span>
+      </h1>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="de" class="active">DE</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <div class="sudoku-controls">
+      <div class="sudoku-diff" role="group">
+        <button type="button" data-diff="easy" class="active">
+          <span class="i18n" data-de="Leicht" data-en="Easy">Leicht</span>
+        </button>
+        <button type="button" data-diff="medium">
+          <span class="i18n" data-de="Mittel" data-en="Medium">Mittel</span>
+        </button>
+      </div>
+      <p id="sudoku-status" class="sudoku-status" aria-live="polite"></p>
+    </div>
+
+    <div id="sudoku-board" class="sudoku-board" aria-label="Sudoku"></div>
+    <div id="sudoku-pad" class="sudoku-pad"></div>
+
+    <a href="#" class="back-link" data-back-to-kid>
+      <span class="i18n" data-de="← Zurück" data-en="← Back">← Zurück</span>
+    </a>
+  </main>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/profile.js"></script>
+  <script src="../js/sudoku.js"></script>
+</body>
+</html>

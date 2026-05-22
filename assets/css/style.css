@@ -414,3 +414,88 @@ body {
   font-size: 1.1rem;
   margin: 0.5rem 0;
 }
+
+/* ========== Sudoku ========== */
+.sudoku-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.sudoku-diff {
+  display: inline-flex;
+  background: var(--card);
+  border-radius: 999px;
+  padding: 0.25rem;
+  box-shadow: var(--shadow);
+}
+.sudoku-diff button {
+  border: none;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--muted);
+  min-height: var(--tap-min);
+}
+.sudoku-diff button.active { background: var(--accent); color: white; }
+.sudoku-status { color: var(--accent); font-weight: 600; margin: 0; }
+
+.sudoku-board {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 0;
+  max-width: 540px;
+  margin: 0 auto;
+  background: var(--text);
+  padding: 3px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+.sudoku-cell {
+  aspect-ratio: 1;
+  background: var(--card);
+  border: 1px solid #E8E1D8;
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  min-width: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.sudoku-cell--rborder { border-right: 3px solid var(--text); }
+.sudoku-cell--bborder { border-bottom: 3px solid var(--text); }
+.sudoku-cell--given { background: var(--accent-soft); color: var(--text); }
+.sudoku-cell--selected { background: #FFE7B5; outline: 2px solid var(--accent); outline-offset: -2px; }
+.sudoku-cell--wrong { color: #b3433a; }
+
+.sudoku-pad {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  max-width: 540px;
+  margin: 1.5rem auto 0;
+}
+.sudoku-key {
+  background: var(--card);
+  border: none;
+  border-radius: var(--radius);
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  min-height: 56px;
+}
+.sudoku-key:hover { background: var(--accent-soft); }
+.sudoku-key--erase { background: #F5E4E0; color: #b3433a; }
